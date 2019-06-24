@@ -1,0 +1,2 @@
+== 20190621201248 AddUseridToPosts: migrating =================================
+-- add_reference(:posts, :user, {:null=>false, :foreign_key=>true})
